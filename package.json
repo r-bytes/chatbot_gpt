@@ -5,6 +5,7 @@
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write .",
+    "lint": "next lint",
     "prepare": "husky install"
   },
   "dependencies": {
