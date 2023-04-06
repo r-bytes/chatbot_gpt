@@ -8,5 +8,6 @@
             "@hooks/*": ["hooks/*"],
             "@images/*": ["public/assets/*"]
         }
-    }
+    },
+    "extends": "../tsconfig.json"
 }
