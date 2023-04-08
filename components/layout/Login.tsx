@@ -1,8 +1,7 @@
 "use client"
+import React from "react"
 import { signIn } from "next-auth/react"
 import Image from "next/image"
-
-import React from "react"
 
 const Login = () => {
     return (

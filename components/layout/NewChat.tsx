@@ -2,11 +2,11 @@
 "use client"
 
 import { PlusIcon } from "@heroicons/react/24/solid"
+import React from "react"
 import { db } from "../../firebase"
 import { addDoc, collection, serverTimestamp } from "firebase/firestore"
 import { useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
-import React from "react"
 
 const NewChat = () => {
     const router = useRouter()
